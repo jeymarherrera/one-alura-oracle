@@ -66,3 +66,20 @@ Cursos Desarrollados:
    - [Empresa ágil: Business Agility en las organizaciones](./) 
  - [Equipos Ágiles](./)
    - [Organización de equipos ágiles: funciones existentes en un equipo](./)    
+   
+## Desarrollo Personal
+Desarrolla habilidades y hábitos fundamentales para el mercado de trabajo.
+
+Cursos Desarrollados: 
+ - [Soft Skills](./)
+   - [Gestión del cambio: visión comportamental](./)
+ - [Hábitos](./)
+   - [Hábitos: Ser productivo](./) 
+ - [Enfocate](./)
+   - [Foco: Enfocarse trae más resultados para el día a día](./)  
+ - [Principios de Productividad](./)
+   - [Productividad: Estrategias para actividades diarias](./)      
+ - [Hábitos de Liderazgo](./)
+   - [Hábitos de liderazgo: Buenas prácticas](./) 
+   - [Principios del trabajo en equipo: Relaciones colaborativas](./) 
+ 
