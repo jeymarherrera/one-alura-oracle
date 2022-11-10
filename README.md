@@ -4,7 +4,7 @@
 
 ONE es un programa de educación y empleabilidad con el objetivo social de formar personas en tecnología y conectarlas con el mercado laboral a través de a través de empresas colaboradoras.
 
-El curso es 100% online y completamente gratuito. Cada clase completa una jornada de 6 meses, dividido en 4 rutas disponibles en la plataforma; en total, hay más de 560 horas de contenido.
+El curso es 100% online y completamente gratuito. Cada clase completa una jornada de 6 meses, dividido en 4 rutas disponibles en la plataforma; en total, hay más de 560 horas de contenido. Soy parte del Grupo 3.
 
 Etapas:
  - Etapa :one:: Inscripción - Todas las personas interesadas en solicitar una beca en ONE, deben presentar su solicitud a través del sitio web.
@@ -51,12 +51,20 @@ Cursos Desarrollados:
     - [JavaScript: Herencia e Interfaces em Orientación a Objetos](./)
     - [JavaScript: Almacenando datos en el navegador](./)
     - [JavaScript: CRUD con js asíncrono](./)
+    
+ Challenges Realizados: 
+  - [Sprint 01: Portafolio](./) 
+  - [Sprint 02: eCommerce (Tienda Virtual)](./)  
 
 ## Java G3 - ONE
 Usado para crear aplicaciones que muchos utilizamos de forma cotidiana en nuestros computadores, teléfonos inteligentes, tabletas e incluso videojuegos; este curso profundizará en uno de los lenguajes de programación más importantes del mundo.
 
 Cursos Desarrollados: 
  - Próximamente 
+ 
+Challenges Realizados: 
+ - [Sprint 01: Conversor de Monedas con Java](./) 
+ - [Sprint 02: Hotel Alura con Java](./)   
  
 ## Business Agility G3 - ONE
 Principales fundamentos del mundo de los negocios, ampliando conocimientos en este ámbito, además de aprender habilidades esenciales para desarrollar una carrera exitosa.
@@ -70,7 +78,7 @@ Cursos Desarrollados:
  - [Equipos Ágiles](./)
    - [Organización de equipos ágiles: funciones existentes en un equipo](./)    
    
-## Desarrollo Personal
+## Desarrollo Personal G3 - ONE
 Desarrolla habilidades y hábitos fundamentales para el mercado de trabajo.
 
 Cursos Desarrollados: 
