@@ -1,5 +1,7 @@
 #  Front End G3 Challenges
     
 Challenges Realizados: 
- - [Sprint 01: Encriptador de texto con Javascript](./) 
- - [Sprint 02: Juego de ahorcado con Javascript](./)  
+ - [Sprint 01: Portafolio](./) 
+ - [Sprint 02: eCommerce (Tienda Virtual)](./)  
+
+
