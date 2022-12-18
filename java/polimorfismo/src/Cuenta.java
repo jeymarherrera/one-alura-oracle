@@ -1,13 +1,14 @@
 
-class Cuenta {
+abstract class Cuenta {
 
-	private  double saldo;
+	protected  double saldo;
 	private  int agencia;
-	//private  int numero;
+	private  int numero;
 	private Cliente titular = new Cliente();
+	
 	private static int totalCuentas = 0;
 
-	public Cuenta(int agencia) {
+	public Cuenta(int agencia, int numero) {
 		if (agencia <= 0) {
 			System.out.println("No se permite 0");
 			this.agencia = 1;
@@ -18,9 +19,7 @@ class Cuenta {
 		System.out.println("Se han creado un total de "+totalCuentas+" cuentas.");
 	}
 	
-	public void realizarDeposito(double valor){
-		this.saldo = this.saldo + valor;	
-	}
+	public abstract void realizarDeposito(double valor);
 	
 	public boolean realizarRetiro(double valor){
 		if (this.saldo >= valor) {

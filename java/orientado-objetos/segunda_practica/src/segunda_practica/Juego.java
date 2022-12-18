@@ -1,3 +1,4 @@
+package segunda_practica;
 
 public class Juego {
 	 //Código omitido
