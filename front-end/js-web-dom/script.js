@@ -9,6 +9,7 @@
     const task = document.createElement('li');
     task.classList.add('card');
     input.value = '';
+    
     //backticks
     const taskContent = document.createElement('div');
 
@@ -34,7 +35,7 @@
     i.addEventListener('click', completeTask);
     return i;
   };
-  
+
   // Immediately invoked function expression IIFE
   const completeTask = (event) => {
     const element = event.target;
