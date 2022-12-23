@@ -34,6 +34,7 @@
     i.addEventListener('click', completeTask);
     return i;
   };
+  
   // Immediately invoked function expression IIFE
   const completeTask = (event) => {
     const element = event.target;
