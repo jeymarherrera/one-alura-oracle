@@ -1,22 +1,17 @@
-package com.alura;
-
-import com.alura.model.Aula;
-import com.alura.model.Curso;
-
 import java.util.ArrayList;
 
 public class Clase6 {
 
     public static void main(String[] args) {
 
-        Curso curso1 = new Curso("Java",30) ;
-        curso1.addAula(new Aula("ArrayList"));
-        curso1.addAula(new Aula("List"));
-        curso1.addAula(new Aula("LinkedList"));
+        Clase curso1 = new Clase("Java",30, new ArrayList<>()) ;
+        curso1.addCurso(new Curso("ArrayList"));
+        curso1.addCurso(new Curso("List"));
+        curso1.addCurso(new Curso("LinkedList"));
 
-        ArrayList<Curso> cursos = new ArrayList<>();
+        ArrayList<Clase> cursos = new ArrayList<>();
         cursos.add(curso1);
 
-        System.out.println(cursos.get(0).getAulaList());
+        System.out.println(cursos.get(0).getCursoList());
     }
 }

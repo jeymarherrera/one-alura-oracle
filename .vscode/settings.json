@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "java/orientado-objetos/segunda_practica/src",
+        "java/excepciones/bytebank-heredado/src",
+        "java/excepciones/ByteBank_Heredado/src",
+        "java/enums/src",
+        "java/collections"
+    ]
+}

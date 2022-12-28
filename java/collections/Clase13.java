@@ -1,4 +1,3 @@
-package com.alura;
 
 import java.util.Collection;
 import java.util.Comparator;

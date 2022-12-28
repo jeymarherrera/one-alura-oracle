@@ -1,4 +1,4 @@
-package com.alura;
+
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -30,9 +30,5 @@ public class Clase11 {
         for (String alumno: listaAlumnos) {
             System.out.println(alumno);
         }
-
-
-
-
     }
 }

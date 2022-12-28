@@ -1,4 +1,3 @@
-package com.alura;
 
 import java.util.ArrayList;
 
@@ -28,6 +27,7 @@ public class Clase2 {
         //    System.out.println(clase);
         //}
 
+        // apartir de JAVA8
         //listaString.forEach(clase -> {
         //    System.out.println(clase);
         //});

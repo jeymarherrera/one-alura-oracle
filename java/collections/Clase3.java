@@ -1,4 +1,3 @@
-package com.alura;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -24,16 +23,21 @@ public class Clase3 {
 
         //System.out.println(cursos);
 
+        //ORDEN ALFABETICO
         //Collections.sort(cursos);
 
         //System.out.println(cursos);
 
+        //ORDEN DESCENDENTE
         //Collections.sort(cursos, Collections.reverseOrder());
 
         //System.out.println(cursos);
 
+        //MAYOR A MENOR Y ASCENDENTE
         //cursos.sort(Comparator.naturalOrder());
 
+
+        //JAVA8
         List<String> cursosList = cursos.stream().sorted().collect(Collectors.toList());
 
         System.out.println(cursosList);

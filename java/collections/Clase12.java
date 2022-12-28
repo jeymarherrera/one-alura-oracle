@@ -1,5 +1,3 @@
-package com.alura;
-
 import java.util.*;
 
 public class Clase12 {
@@ -32,9 +30,5 @@ public class Clase12 {
         listaAlumnos.forEach(alumno -> {
             System.out.println(alumno);
         });
-
-
-
-
     }
 }

@@ -1,8 +1,3 @@
-package com.alura;
-
-import com.alura.model.Aula;
-import com.alura.model.Curso;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,16 +5,17 @@ public class Clase7 {
 
     public static void main(String[] args) {
 
-        Curso curso1 = new Curso("Java",30) ;
-        curso1.addAula(new Aula("ArrayList"));
-        curso1.addAula(new Aula("List"));
-        curso1.addAula(new Aula("LinkedList"));
-        curso1.addAula(new Aula("Inmutable"));
+        Clase curso1 = new Clase("Java",30) ;
+        curso1.addCurso(new Curso("ArrayList"));
+        curso1.addCurso(new Curso("List"));
+        curso1.addCurso(new Curso("LinkedList"));
+        curso1.addCurso(new Curso("Inmutable"));
 
-        List<Aula> aulaList = curso1.getAulaList();
+        List<Curso> aulaList = curso1.getCursoList();
 
+       // aulaList.add(new Curso("Inmutable"));
 
-        ArrayList<Curso> cursos = new ArrayList<>();
+        ArrayList<Clase> cursos = new ArrayList<>();
         cursos.add(curso1);
 
         System.out.println(aulaList);

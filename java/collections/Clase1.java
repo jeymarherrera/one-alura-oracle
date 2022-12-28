@@ -1,4 +1,4 @@
-package com.alura;
+
 
 import java.util.ArrayList;
 
@@ -20,6 +20,8 @@ public class Clase1 {
 
         System.out.println(listaString);
 
-
+        listaString.set(2, "Ejemplo Alterado");
+        System.out.println(listaString);
+        System.out.println(listaString.size());
     }
 }

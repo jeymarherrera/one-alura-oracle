@@ -1,7 +1,3 @@
-package com.alura;
-
-
-import com.alura.model.Curso;
 
 import java.util.*;
 import java.util.stream.Collector;
@@ -17,18 +13,18 @@ public class Clase10 {
     };
 
     public static void main(String[] args) {
-        Curso curso1 = new Curso("Historia",30) ;
-        Curso curso2 = new Curso("Algebra",10) ;
-        Curso curso3 = new Curso("Aritmetica",20) ;
-        Curso curso4 = new Curso("Geometria",50) ;
-        Curso curso5 = new Curso("Fisica",60) ;
-        Curso curso6 = new Curso("Quimica",80) ;
-        Curso curso7 = new Curso("Quimica",70) ;
-        Curso curso8 = new Curso("Fisica",30) ;
+        Clase curso1 = new  Clase("Historia",30) ;
+        Clase curso2 = new  Clase("Algebra",10) ;
+        Clase curso3 = new  Clase("Aritmetica",20) ;
+        Clase curso4 = new  Clase("Geometria",50) ;
+        Clase curso5 = new  Clase("Fisica",60) ;
+        Clase curso6 = new  Clase("Quimica",80) ;
+        Clase curso7 = new  Clase("Quimica",70) ;
+        Clase curso8 = new  Clase("Fisica",30) ;
 
 
 
-        ArrayList<Curso> cursos = new ArrayList<>();
+        ArrayList<Clase> cursos = new ArrayList<>();
         cursos.add(curso1);
         cursos.add(curso2);
         cursos.add(curso3);
@@ -39,21 +35,21 @@ public class Clase10 {
         cursos.add(curso8);
 
 
-        List<Curso> cursoList = cursos.stream().filter(curso -> !curso.getNombre().equalsIgnoreCase("Ruby")).sorted(Comparator.comparingInt(Curso::getTiempo)).collect(Collectors.toList());
+        List<Clase> cursoList = cursos.stream().filter(curso -> !curso.getNombre().equalsIgnoreCase("Ruby")).sorted(Comparator.comparingInt(Clase::getTiempo)).collect(Collectors.toList());
 
-        System.out.println(cursos.stream().filter(curso -> !curso.getNombre().equalsIgnoreCase("Historia")).mapToInt(Curso::getTiempo).sum());
+        System.out.println(cursos.stream().filter(curso -> !curso.getNombre().equalsIgnoreCase("Historia")).mapToInt(Clase::getTiempo).sum());
 
-        System.out.println(cursos.stream().mapToInt(Curso::getTiempo).average().getAsDouble());
+        System.out.println(cursos.stream().mapToInt(Clase::getTiempo).average().getAsDouble());
 
-        System.out.println(cursos.stream().mapToInt(Curso::getTiempo).max().getAsInt());
+        System.out.println(cursos.stream().mapToInt(Clase::getTiempo).max().getAsInt());
 
-        System.out.println(cursos.stream().mapToInt(Curso::getTiempo).min().getAsInt());
+        System.out.println(cursos.stream().mapToInt(Clase::getTiempo).min().getAsInt());
 
-        Map<String, List<Curso>> groupCurso = cursos.stream().collect(Collectors.groupingBy(Curso::getNombre));
+        Map<String, List<Clase>> groupCurso = cursos.stream().collect(Collectors.groupingBy(Clase::getNombre));
 
         groupCurso.forEach((key , value) -> System.out.println(key + " - " + value.size()));
 
-        System.out.println(cursos.parallelStream().mapToInt(Curso::getTiempo).sum());
+        System.out.println(cursos.parallelStream().mapToInt(Clase::getTiempo).sum());
 
     }
 }

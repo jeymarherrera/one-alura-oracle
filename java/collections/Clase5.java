@@ -1,7 +1,3 @@
-package com.alura;
-
-import com.alura.model.Curso;
-
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -11,25 +7,25 @@ public class Clase5 {
 
     public static void main(String[] args) {
 
-        Curso curso1 = new Curso("PHP",30) ;
-        Curso curso2 = new Curso("Ruby",10) ;
-        Curso curso3 = new Curso("JavaScript",20) ;
-        Curso curso4 = new Curso("Java",50) ;
+        Clase curso1 = new Clase("PHP",30) ;
+        Clase curso2 = new Clase("Ruby",10) ;
+        Clase curso3 = new Clase("JavaScript",20) ;
+        Clase curso4 = new Clase("Java",50) ;
 
 
-        ArrayList<Curso> cursos = new ArrayList<>();
+        ArrayList<Clase> cursos = new ArrayList<>();
         cursos.add(curso1);
         cursos.add(curso2);
         cursos.add(curso3);
         cursos.add(curso4);
 
         System.out.println(cursos);
-
+        // sin usar el metodo comparateTo
         //Collections.sort(cursos,Comparator.comparing(Curso::getNombre).reversed());
-
+        //cursos.sort(Comparator.comparing(Curso::getNombre));
         //System.out.println(cursos);
 
-        List<Curso> cursoList = cursos.stream().filter(curso -> !curso.getNombre().equalsIgnoreCase("Ruby")).sorted(Comparator.comparingInt(Curso::getTiempo)).collect(Collectors.toList());
+        List<Clase> cursoList = cursos.stream().filter(curso -> !curso.getNombre().equalsIgnoreCase("Ruby")).sorted(Comparator.comparingInt(Clase::getTiempo)).collect(Collectors.toList());
 
         System.out.println(cursoList);
     }
