@@ -1,6 +1,3 @@
-package com.alura;
-
-import com.alura.model.Alumno;
 
 import java.util.ArrayList;
 import java.util.Collection;

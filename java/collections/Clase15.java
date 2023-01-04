@@ -1,8 +1,3 @@
-package com.alura;
-
-import com.alura.model.Alumno;
-import com.alura.model.Curso;
-
 import java.util.Collection;
 import java.util.HashSet;
 
@@ -13,7 +8,7 @@ public class Clase15 {
 
     public static void main(String[] args) {
 
-        Curso curso1 = new Curso("Historia",30) ;
+        Clase curso1 = new Clase("Historia",30) ;
 
         Alumno alumno1 = new Alumno("Luis Miguel", "001");
         Alumno alumno2 = new Alumno("Pepito los palotes", "002");
@@ -34,6 +29,6 @@ public class Clase15 {
         Alumno alumnoNuevo = new Alumno("Luis Miguel", "001");
 
         System.out.println(alumno1.equals(alumnoNuevo));
-        System.out.println(curso1.verificaAlumno(alumnoNuevo));
+        System.out.println(curso1.getAlumnos().contains(alumnoNuevo));
     }
 }

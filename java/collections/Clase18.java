@@ -1,8 +1,3 @@
-package com.alura;
-
-import com.alura.model.Alumno;
-import com.alura.model.Curso;
-
 import java.util.Iterator;
 import java.util.Optional;
 
@@ -13,7 +8,7 @@ public class Clase18 {
 
     public static void main(String[] args) {
 
-        Curso curso1 = new Curso("Historia",30) ;
+        Clase curso1 = new Clase("Historia",30) ;
 
         Alumno alumno1 = new Alumno("Luis Miguel", "001");
         Alumno alumno2 = new Alumno("Pepito los palotes", "002");
