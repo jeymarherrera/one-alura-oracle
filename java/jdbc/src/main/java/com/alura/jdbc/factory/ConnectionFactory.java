@@ -8,9 +8,9 @@ public class ConnectionFactory {
 
     public Connection recuperaConexion() throws SQLException {
         return DriverManager.getConnection(
-                "jdbc:mysql://localhost/control_de_stock?useTimeZone=true&serverTimeZone=UTC",
+                "jdbc:mysql://localhost/ControlStock?useTimeZone=true&serverTimeZone=UTC",
                 "root",
-                "root1234");
+                "");
     }
 
 }
