@@ -1,56 +1,167 @@
-* {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
+html {
+    font-size: 41%;
 }
 
 body {
-    background-color: #FFF;
+    background: linear-gradient(#92b2d8, #FAFAFA);
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
 
-main {
+main{    
+    height: auto;
+    justify-content: flex-start;
+    padding: 4rem 5rem;
+}
+
+.contenedor-input {
+    width: 100%;
+    height: 30rem;
+    background: #F6F5EF;
+    border: 1px solid #0a3871;
+    border-radius: 36px;
     display: flex;
-    margin-left: 80px;
-    margin-bottom: 50px;
-} 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 5rem;
+    box-shadow: 0 4px 4px lightgrey;
+    
+}
+
+.contenedor-input p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #A6A6A6;
+}
 
 .input-texto {
-    margin-top: 90px;
+    width: 75%;
+    height: 70%;
+    font-size: 1.6rem;
+    color: #737373;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    resize: none;
+    outline: none;
+    margin-bottom: 1.5rem;
+    background: #F6F5EF;
 }
 
-.mensaje {
-    position: relative;
-    margin-top: 20px;
-    margin-left: 90px;
-    background-image: url("img/muñeco.png");
-    background-repeat: no-repeat;
-    background-position: 18px;
-    background-size: 300px;
-
-}
-
-.copiar {
-    position: relative;
-    margin-top: 20px;
-    margin-left: 205px;
-}
-
-.botones {
+.container-botones {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
 }
 
 .encriptar {
-    background-color: darkblue;
-    color:white;
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 24px;
+    background: #0a3871;
+    border: 1px solid #0a3871;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.encriptar:hover {
+    box-shadow: 1px 1px 10px #A6A6A6;
+    transition: 1s transform;
 }
 
 .desencriptar {
-    margin-left: 30px;
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 24px;
+    background: #FFF;
+    border: 1px solid #0a3871;
+    color: #0a3871;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    margin: 1rem;
 }
 
-.informacion {
-    font-size: 15px;
+.desencriptar:hover {
+    box-shadow: 1px 1px 10px #A6A6A6;
+    transition: 1s transform;
+}
+
+.copiar {
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 24px;
+    background: #576F6B;
+    border: 1px solid #0a3871;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.copiar:hover {
+    box-shadow: 1px 1px 10px #A6A6A6;
+    transition: 1s transform;
+}
+
+.contenedor-output {
+    width: 100%;
+    height: 30rem;
+    background: #F6F5EF;
+    border: 1px solid #0a3871;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 5rem;
+    box-shadow: 0 4px 4px lightgrey;
+   
+}
+
+.output-texto {
+    width: 75%;
+    height: 70%;
+    font-size: 1.6rem;
+    color: #737373;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    resize: none;
+    outline: none;
+    margin-bottom: 1.5rem;
+    background: #F6F5EF;
+    background-image: url("img/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 800px;
+    background-size: 180px;
+}
+
+.texto {
+    font-family: 'PT Sans', sans-serif;
+    color: #545454;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    color: #A6A6A6;
 }

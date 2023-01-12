@@ -1,19 +1,7 @@
-/* ===== Loader =====*/
-window.addEventListener('load', () => {
-    const contenedorLoader = document.querySelector('.container--loader');
-    contenedorLoader.style.opacity = 0;
-    contenedorLoader.style.visibility = 'hidden';
-})
-
 const inputTexto = document.querySelector(".input-texto");
-const mensaje = document.querySelector(".mensaje");
+const mensaje = document.querySelector(".output-texto");
 const btnCopy = document.querySelector(".copiar");
 btnCopy.style.display = "none"
-
-function focus() {
-    let input = document.getElementById("input-texto");
-    inputTexto.focus();
-}
 
 //Encriptar mensaje
 function btnEncriptar() {
