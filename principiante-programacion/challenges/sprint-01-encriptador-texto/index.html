@@ -36,7 +36,10 @@
     </main>
 
     <footer>
-        <span>&copy; 2022 - Jeymar Herrera - Oracle Next Education</span> 
+        <div>&copy;
+        <span id="copyright"><script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        </span>
+        <span> - Jeymar Herrera - Oracle Next Education</span> 
     </footer>
 
     <script type="text/javascript" src="script.js"></script>
